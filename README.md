@@ -5,28 +5,7 @@ Tech Stack
 - Backend: Java, Spring Boot, Spring Data JPA
 - Database: PostgreSQL
 - Security & Payments: JWT, Razorpay
-Project Structure
-Eggstore/
-├── egg-store-frontend/
-│   └── egg-store-frontend/
-│       └── src/
-│           ├── api/          # Shared API client
-│           ├── components/   # Reusable UI and layouts
-│           ├── context/      # Auth, cart, notifications
-│           ├── pages/        # Storefront and admin pages
-│           ├── services/     # Feature-based API calls
-│           └── utils/        # Helpers
-└── egg-store-backend/
-    └── egg-store-backend/
-        └── src/main/java/com/eggstore/
-            ├── controller/   # REST endpoints
-            ├── dto/          # Request/response models
-            ├── entity/       # Database entities
-            ├── repository/   # Data access
-            ├── security/     # JWT and access control
-            ├── service/      # Business logic
-            ├── exception/    # Error handling
-            └── util/         # Shared utilities
+
 Run Locally
 Backend (requires Java, Maven, and PostgreSQL):
 cd egg-store-backend/egg-store-backend
